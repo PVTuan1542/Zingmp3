@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="15dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="15dp">
+    <RelativeLayout
+        android:id="@+id/recycler_view1"
+        android:layout_width="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp"
+        android:background="@drawable/gbr_img_radip">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_img"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="60dp"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/anh"
+                android:src="@drawable/top_han" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_below="@+id/cardview_img"
+            android:id="@+id/tv_ten"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nhac_hay"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

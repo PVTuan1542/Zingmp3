@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycler_view1"
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginEnd="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="240dp"
+        android:layout_height="135dp"
+        app:cardCornerRadius="11dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:src="@drawable/mv_viet"
+            android:contentDescription="@string/anh"
+            android:background="@drawable/gbr_img_radip"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tv_TenBaiHat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lũ ơi xin đừng vào đây nữa"
+        android:textSize="16sp"
+        android:textColor="#070000" />
+    <TextView
+        android:id="@+id/tv_TenCaSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lâm Tuấn Kiệt"
+        android:textSize="13sp"
+
+        android:textColor="#918D8D" />
+
+
+
+</LinearLayout>

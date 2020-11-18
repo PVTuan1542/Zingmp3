@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">BaoCaoCuoiKi</string>
+    <string name="anh_dau">Ảnh đầu</string>
+    <string name="rap">Ráp việt ngày nay</string>
+    <string name="des">Ráp việt ngày càng được cộng đồng mạng yêu thích</string>
+    <string name="nhac_moi">Nhạc Mới</string>
+    <string name="todo">TODO</string>
+    <string name="txt_muonnghe">V-Pop Tháng 11 có gì hót ?</string>
+    <string name="tieude_layout4">Có thể bạn muốn nghe</string>
+    <string name="anhdep">anhdep</string>
+    <string name="theLoai">Tiềm năng V-Pop</string>
+    <string name="the_loai">Thể Loại</string>
+    <string name="top_100">Top 100</string>
+    <string name="mv">MV</string>
+    <string name="vip">VIP</string>
+    <string name="playlist">Playlist gần đây</string>
+    <string name="mix">Mix riêng cho bạn</string>
+    <string name="radio">Radio yêu thích</string>
+    <string name="htram">Hương Tràm</string>
+    <string name="hdcs">Hoạt động của nghệ sĩ</string>
+    <string name="lbb">Lê Bảo Bình</string>
+    <string name="quanap">Quân AP</string>
+    <string name="nhac_hay">Nhac hay</string>
+    <string name="anh">ảnh</string>
+    <string name="nghesi">Hoạt động của nghệ sĩ</string>
+    <string name="hoat_dong">Tâm trạng và hoạt động</string>
+    <string name="ca_s">ca sĩ</string>
+    <string name="tenbathat">Tên bài hát</string>
+    <string name="top">01</string>
+    <string name="td">TODO</string>
+    <string name="hint">Bài hát, play,nghệ sĩ...</string>
+    <string name="zingchat">#zingchat tuần</string>
+    <string name="top_zc">Top 100</string>
+</resources>
